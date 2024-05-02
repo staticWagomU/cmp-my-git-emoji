@@ -7,7 +7,7 @@ nvim-cmp source for emojis.
 ```lua
 require'cmp'.setup {
   sources = {
-    { name = 'emoji' }
+    { name = 'my-git-emoji' }
   }
 }
 ```

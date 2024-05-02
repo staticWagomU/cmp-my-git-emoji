@@ -26,7 +26,7 @@ source.complete = function(self, params, callback)
       self.insert_items = vim.tbl_map(function(item)
         item.word = nil
         return item
-      end, require('cmp_emoji.items')())
+      end, require('cmp_my_git_emoji.items')())
     end
     callback(self.insert_items)
   else
