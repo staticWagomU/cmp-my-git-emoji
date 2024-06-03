@@ -31,7 +31,7 @@ source.complete = function(self, params, callback)
     callback(self.insert_items)
   else
     if not self.commit_items then
-      self.commit_items = require('cmp_emoji.items')()
+      self.commit_items = require('cmp_my_git_emoji.items')()
     end
     callback(self.commit_items)
   end
